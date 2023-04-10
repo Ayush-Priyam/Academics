@@ -1,0 +1,1 @@
+(stid in Student4.STUDENTID%TYPE, fn out Student4.first%TYPE, ln out Student4.last%TYPE, p out Student4.phone%TYPE)

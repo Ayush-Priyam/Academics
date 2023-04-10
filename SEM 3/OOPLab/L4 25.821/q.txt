@@ -1,0 +1,14 @@
+1.Create a class which stores name, author and price of a book. Store information for n number of books.
+ Display information of all the books in a given price range using friend function.
+
+
+2.Write a program to create  a class to store details of a student ( name, roll and 3 subject marks ). 
+Input details for 2 students and assign all the details of that student who is having higher average mark 
+to a new student. 
+i) use member function 
+ii) use friend function
+
+
+3.Write a program to create a class to store details of an employee like name , age,  job_id and department name
+(common to all). 
+Input display details of 3 employees using array of objects concept

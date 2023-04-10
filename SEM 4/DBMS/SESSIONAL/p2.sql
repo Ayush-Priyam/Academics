@@ -1,0 +1,1 @@
+select cname, ccity from cust where ccity = 'Kolkata' or ccity = 'Chennai';

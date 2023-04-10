@@ -1,0 +1,13 @@
+1.Write a program to swap private data member of two classes.
+
+2.Create two classes which stores distance in feet, inches and meter, centimeter format respectively.
+ Write a function which compares distance in object of these classes and displays the larger one.
+
+3.Write a program to create a class “student” that stores name and roll number of a student. 
+Create another class “marks” that stores three subject marks. 
+Print the details of two students along with average mark by using
+i)A common friend function to both the classes
+ii)Making a member function of “student” class as friendly to “marks” class.
+
+4.Write a program to count number of objects created from a class using concept of static data member 
+and static member function.

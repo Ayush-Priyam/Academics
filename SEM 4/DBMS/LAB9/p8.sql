@@ -1,0 +1,15 @@
+SET SERVEROUTPUT ON;
+declare 
+    e number(2);
+    EMID NUMBER(5);
+    EMFNAME VARCHAR2(10);
+    EMLNAME VARCHAR2(10);
+    DEP VARCHAR2(10);
+    PRO	VARCHAR2(7);
+    AD	VARCHAR2(30);
+    D	DATE;
+    GEN VARCHAR2(6);
+begin
+    eid :='&eid'; 
+    select EMPID, EMPFNAME, EMPLNAME, DEPARTMENT, PROJECT, ADDRESS, DOB, GENDER into EMID, EMFNAME, EMLNAME, DEP, PRO, AD, D, GEN from employeeinfo where EMPID=eid;
+end;

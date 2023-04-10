@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    int n, arr[100], rev[100], *p;
+    printf("\nEnter the size :");
+    scanf("%d", &n);
+    p = &arr[0];
+    printf("\nEnter elements:");
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", p + i);
+        rev[n - i - 1] = arr[i];
+    }
+    p = &rev[0];
+    printf("\nThe elements the array in reverse are: ");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d, ", *(p + i));
+    }
+    return 0;
+}

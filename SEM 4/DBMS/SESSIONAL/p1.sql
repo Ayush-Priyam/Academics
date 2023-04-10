@@ -1,0 +1,1 @@
+select pname from prod where pcost> (select pcost from prod where pname='Pen');

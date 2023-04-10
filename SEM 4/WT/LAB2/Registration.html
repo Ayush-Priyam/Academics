@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<title> Registration Form</title>
+<style>
+    body {
+        background-color: rgb(128, 190, 231);
+    }
+</style>
+
+<head>
+    <title>Registration form</title>
+</head>
+
+<body>
+    <fieldset>
+        <center>
+            <h1><u><i>Registration Form</i></u></h1>
+        </center>
+        <br><br>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" size=10><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" size=10><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="phno">Phone no:</label>
+        <input type="phno" id="phno" name="phno" size=10><br><br> Gender:
+        <br>
+        <input type="radio" id="value1" name="value1" value="Male">
+        <label for="value">Male</label><br>
+        <input type="radio" id="value2" name="value2" value="Female">
+        <label for="value2">Female</label><br><input type="radio" id="value3" name="value3" value="Other">
+        <label for="value2">Other</label><br>
+        <br> Age:
+        <input list="Age" size=2>
+        <datalist id="Age">
+	<option value="17">
+    <option value="18">
+    <option value="19">
+    <option value="20">
+    <option value="21">
+    <option value="22">
+  </datalist>
+        <br><br>
+
+        <label for="address">Address Line 1:</label><br>
+        <input type="text" id="address" name="address" size=30>
+        <br>
+        <label for="address">Address Line 2:</label><br>
+        <input type="text" id="address" name="address" size=30><br>
+        <label for="pincode">Pincode:</label><br>
+        <input type="text" id="pincode" name="pincode" size=6>
+        <br> State:
+        <br>
+        <input list="State">
+        <datalist id="State">
+    <option value="Bihar">
+    <option value="West Bengal">
+    <option value="Assam">
+    <option value="Orissa">
+    <option value="Madhya Pradesh">
+  </datalist>
+        <br><br>
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <br><br>
+        <label for="ypr">Year of Admission in college:</label>
+        <input type="number" id="ypr" name="ypr" min="2017" max="2022" step="1" value="2017">
+
+
+
+        <br><br> Preferred Language:<br>
+        <input type="checkbox" id="English" name="fav_language" value="English">
+        <label for="English">English</label><br>
+        <input type="checkbox" id="Hindi" name="fav_language" value="Hindi">
+        <label for="Hindi">Hindi</label><br>
+        <input type="checkbox" id="Other" name="fav_language" value="Other">
+        <label for="Other">Other</label>
+        <br><br><br>
+
+
+
+
+
+        <label for="session">Choose a session:<br></label>
+        <select id="session" name="ses" size="3" multiple>
+<option value="Artificial Intelligence">Artificial Intelligence</option>
+  <option value="Machine Learning">Machine Learning</option>
+  <option value="Software Project Management">Software Project Management</option>
+  <option value="Software Engineering">Software Engineering</option>
+  <option value="Cloud Computing">Cloud Computing</option>
+  <option value="Cyber Security">Cyber Security</option>
+  </select>
+        <br><br><br>
+
+        <b>Tell us about your experience:</b><br>
+        <textarea name="message" rows="10" cols="40"> Enter here</textarea>
+        <br><br><br>
+
+        <fieldset>
+            <fieldset>
+                <legend>Login Credentials:</legend>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br>
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd" required>
+                <input type="reset">
+            </fieldset>
+            <br><br><br>
+            <input type="submit" value="Submit">
+
+
+            </form>
+</body>
+
+</html>

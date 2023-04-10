@@ -1,0 +1,18 @@
+KM SHAHIN BANO9:09 AM
+1.Create a class which stores name, roll number and total marks for a student. 
+Input data for n students. Find the average marks scored by n students, store it as a data member of the class 
+and display it using a function which may be called without object.
+
+
+2.WAP to find area of a circle, a rectangle and a triangle, using concept of function 
+overloading
+
+3.WAP to find square and cube of a number using inline function.
+
+4.WAP to swap two integers using pass by reference.
+
+5.WAP to create a functions to calculate simple interest and compound interest by using function overloading c
+oncept. (Take the rate of interest as default argument).
+
+6.Static data members of a class occupy memory once whereas non static data members occupy members as per 
+the number of objects created. Justify the statement by writing a program
